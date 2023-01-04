@@ -1,0 +1,69 @@
+{
+    "seed": {
+        "emails": ["kevin@okayhq.com", "sarah@okayhq.com", "antoine@okayhq.com", "tomas@okayhq.com"],
+        "prstatus": ["approved", "needsChanges", "comment"],
+        "ticketstatus": ["open", "closed", "wontfix", "pending"]
+    },
+    "data": [
+        {"firstName": "Kevin", "lastName": "Greenan", "email": "kevin@okayhq.com",
+            "managerEmail": "tomas@okayhq.com"
+        },
+        {"firstName": "Antoine", "lastName": "Boulanger", "email": "antoine@okayhq.com", "managerEmail":  "antoine@okayhq.com"},
+        {"firstName": "Tomas", "lastName": "Barreto", "email": "tomas@okayhq.com", "managerEmail":  "antoine@okayhq.com"},
+        {"firstName": "Sarah", "lastName": "Wada", "email": "sarah@okayhq.com", "managerEmail": "tomas@okayhq.com"},
+        {"firstName": "Bob", "lastName": "Smith", "email": "bob@okayhq.com", "managerEmail": "sarah@okayhq.com"},
+        {"firstName": "Jane", "lastName": "Jones", "email": "jane@okayhq.com", "managerEmail": "bob@okayhq.com"},
+        {"firstName": "Francis", "lastName": "Black", "email": "pixies@okayhq.com", "managerEmail": "jane@okayhq.com"},
+        {"firstName": "Keanu", "lastName": "Cat", "email": "cat@okayhq.com", "managerEmail": "bob@okayhq.com"},
+        {"id": "#randsha", "utcTimestampMs": "#nowms", "payload": {"type": "pr", "title": "Handle Jira Project Names", "author": "#email"}},
+        {"id": "#randsha", "utcTimestampMs": "#nowms", "payload": {"type": "pr", "title": "Update Custom Events Parsing", "author": "#email"}},
+        {"id": "#randsha", "utcTimestampMs": "#nowms", "payload": {"type": "pr", "title": "Fix Unit Tests", "author": "#email"}},
+        {"id": "#randsha", "utcTimestampMs": "#nowms", "payload": {"type": "pr", "title": "Add Dependencies Needed for CI/CD", "author": "#email"}},
+        {"id": "#randsha", "utcTimestampMs": "#nowms", "payload": {"type": "pr", "title": "Fix Scrolling on Docs Page", "author": "#email"}},
+        {"id": "#randsha", "utcTimestampMs": "#nowms", "payload": {"type": "pr", "title": "Add Events V1 API", "author": "#email"}},
+        {"id": "#randsha", "utcTimestampMs": "#nowms", "payload": {"type": "pr", "title": "Handle Repo Changes in Github", "author": "#email"}},
+        {"id": "#randsha", "utcTimestampMs": "#nowms", "payload": {"type": "pr", "title": "Refactor to Make Flexbox Work Properly", "author": "#email"}},
+        {"id": "#randsha", "utcTimestampMs": "#nowms", "payload": {"type": "pr", "title": "Dashboard Data Details Modal", "author": "#email"}},
+        {"id": "#randticketid", "utcTimestampMs": "#nowms", "payload": {"type": "ticket", "summary": "Investigate Large Table Sizes", "creator": "#email",
+            "status": "#ticketstatus"
+        }},
+        {"id": "#randticketid", "utcTimestampMs": "#nowms", "payload": {"type": "ticket", "summary": "Increase in Events API 500s", "creator": "#email",
+            "status": "#ticketstatus"
+        }},
+        {"id": "#randticketid", "utcTimestampMs": "#nowms", "payload": {"type": "ticket", "summary": "Increase Disk Dize in Node Pools", "creator": "#email",
+            "status": "#ticketstatus"
+        }},
+        {"id": "#randticketid", "utcTimestampMs": "#nowms", "payload": {"type": "ticket", "summary": "Paging Broken in Ingestor", "creator": "#email",
+            "status": "#ticketstatus"
+        }},
+        {"id": "#randticketid", "utcTimestampMs": "#nowms", "payload": {"type": "ticket", "summary": "UTC Date Formatter Not Working as Expected", "creator": "#email",
+            "status": "#ticketstatus"
+        }},
+        {"id": "#randticketid", "utcTimestampMs": "#nowms", "payload": {"type": "ticket", "summary": "Ingestor Not Retrying 429 Errors", "creator": "#email",
+            "status": "#ticketstatus"
+        }},
+        {"id": "#randticketid", "utcTimestampMs": "#nowms", "payload": {"type": "ticket", "summary": "Fix CVEs in Docker Image Builds", "creator": "#email",
+            "status": "#ticketstatus"
+        }},
+        {"uuid": "#uuid", "utcTimestampMs": "#nowms", "payload": {"prId": "#randsha", "reviewer": "#email", "status": "#prstatus"}},
+        {"uuid": "#uuid", "utcTimestampMs": "#nowms", "payload": {"prId": "#randsha", "reviewer": "#email", "status": "#prstatus"}},
+        {"uuid": "#uuid", "utcTimestampMs": "#nowms", "payload": {"prId": "#randsha", "reviewer": "#email", "status": "#prstatus"}},
+        {"uuid": "#uuid", "utcTimestampMs": "#nowms", "payload": {"prId": "#randsha", "reviewer": "#email", "status": "#prstatus"}},
+        {"uuid": "#uuid", "utcTimestampMs": "#nowms", "payload": {"prId": "#randsha", "reviewer": "#email", "status": "#prstatus"}},
+        {"uuid": "#uuid", "utcTimestampMs": "#nowms", "payload": {"prId": "#randsha", "reviewer": "#email", "status": "#prstatus"}},
+        {"uuid": "#uuid", "utcTimestampMs": "#nowms", "payload": {"prId": "#randsha", "reviewer": "#email", "status": "#prstatus"}},
+        {"uuid": "#uuid", "utcTimestampMs": "#nowms", "payload": {"prId": "#randsha", "reviewer": "#email", "status": "#prstatus"}},
+        {"uuid": "#uuid", "utcTimestampMs": "#nowms", "payload": {"prId": "#randsha", "reviewer": "#email", "status": "#prstatus"}},
+        {"uuid": "#uuid", "utcTimestampMs": "#nowms", "payload": {"prId": "#randsha", "reviewer": "#email", "status": "#prstatus"}},
+        {"uuid": "#uuid", "utcTimestampMs": "#nowms", "payload": {"prId": "#randsha", "reviewer": "#email", "status": "#prstatus"}},
+        {"uuid": "#uuid", "utcTimestampMs": "#nowms", "payload": {"prId": "#randticketid", "author": "#email", "updates": [{"field": "status", "value": "closed"}]}},
+        {"uuid": "#uuid", "utcTimestampMs": "#nowms", "payload": {"prId": "#randticketid", "author": "#email", "updates": [{"field": "priority", "value": "1"}]}},
+        {"uuid": "#uuid", "utcTimestampMs": "#nowms", "payload": {"prId": "#randticketid", "author": "#email", "updates": [{"field": "severity", "value": "3"}]}},
+        {"uuid": "#uuid", "utcTimestampMs": "#nowms", "payload": {"prId": "#randticketid", "author": "#email", "updates": [{"field": "status", "value": "wontfix"}]}},
+        {"uuid": "#uuid", "utcTimestampMs": "#nowms", "payload": {"prId": "#randticketid", "author": "#email", "updates": [{"field": "epic", "value": "storage"}]}},
+        {"uuid": "#uuid", "utcTimestampMs": "#nowms", "payload": {"prId": "#randticketid", "author": "#email", "updates": [{"field": "priority", "value": "2"}]}},
+        {"uuid": "#uuid", "utcTimestampMs": "#nowms", "payload": {"prId": "#randticketid", "author": "#email", "updates": [{"field": "type", "value": "bug"}]}},
+        {"uuid": "#uuid", "utcTimestampMs": "#nowms", "payload": {"prId": "#randticketid", "author": "#email", "updates": [{"field": "severity", "value": "4"}]}},
+        {"uuid": "#uuid", "utcTimestampMs": "#nowms", "payload": {"prId": "#randticketid", "author": "#email", "updates": [{"field": "status", "value": "closed"}]}}
+    ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "okay-interview",
+  "version": "1.0.0",
+  "description": "Okay Interview Repo",
+  "main": "index.js",
+  "author": "kmgreen2@gmail.com",
+  "license": "MIT",
+  "engines": {
+    "node": "^18.12.0"
+  },
+  "scripts": {
+    "build": "cd server && yarn build && cd ../client && yarn build",
+    "serve-vue": "concurrently --kill-others-on-fail \"cd client && yarn serve\" \"cd server && yarn debug\"",
+    "serve-react": "concurrently --kill-others-on-fail \"cd react/org-editor && yarn start\" \"cd server && yarn debug\"",
+    "install-all": "cd client && yarn install && cd ../react/org-editor && yarn install && cd ../../server && yarn install",
+    "seed": "cd server && yarn seed",
+    "test": "cd server && yarn test"
+  },
+  "keywords": [],
+  "dependencies": {
+    "concurrently": "^7.4.0"
+  }
+}
